@@ -1,0 +1,8 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "baseUrl": "https://leitura.com.br/",
+    "env": {
+        "global_timeout": "3000",
+        "environment": "PROD"
+        }
+    }
