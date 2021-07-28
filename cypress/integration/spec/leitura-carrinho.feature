@@ -3,11 +3,13 @@ Feature: Carrinho
     Como usuário
     Quero adicionar meus produtos selecionados ao carrinho
     
+    @cartAdd
     Scenario: Adicionar produto selecionado ao carrinho
         Given que esteja na página do produto selecionado
         When clicar em adicionar ao carrinho
         Then deverá ser mostrado uma mensagem de sucesso
 
+    @cartShow
     Scenario: Exibir carrinho
         When clicar no carrinho 
         And clicar em exibir carrinho
